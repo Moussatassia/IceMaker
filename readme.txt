@@ -4,6 +4,8 @@ Bonjour à tous,
 
 je travaille acutellement sur un projet d'une machine à glacons DIY avec un distributeur d'eau fraiche.
 La machine est reliée à l'arrivée d'eau et l'evacuation d'eau domestique (comme pour une machine à laver ou un lave vaisselle)
+La partie electronique sera gérée par un raspberry pi avec une carte relais qui pilotera tous les organes électriques et récupèrera les 
+valeurs de divers capteurs.
 
 1) DISTRIBUTEUR D'EAU FRAICHE
 
