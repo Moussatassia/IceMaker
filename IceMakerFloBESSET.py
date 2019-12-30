@@ -45,7 +45,7 @@ capteur_temperature = 20
 compteur_cycle = 0 # incrementation a chaque cycle de fabrique de glacons
 valeur_contacteurs_moteur = 0 # defini quel contacteur est enclenche
 contact1 = 1 #contacteur 1 enclenché
-contact2 = 1 #contacteur 2 enclenché
+contact2 = 1 #contacteur 2 enclenché 
 start = 0 #variable utilisée pour le demmarrage ou l'arret des cycles
 stop = 1 #variable utilisée pour le demmarrage ou l'arret des cycles
 nombre_distribution_eau = 0 # incremantation a chaque service d'eau fraiche et remise à 0 au bout de 60 et vidange du bac de recup d'eau
@@ -373,4 +373,5 @@ if __name__ == '__main__':     # Demarrage du programme
       threading.Thread(target=ouverture_bac).start() #les thread sont des fonctions qui tournent en tache de fond en permanence
       threading.Thread(target=remplissage_auto_bac_eau).start() #les thread sont des fonctions qui tournent en tache de fond en permanence
       threading.Thread(target=temperature).start() #les thread sont des fonctions qui tournent en tache de fond en permanence
+      treadind.Thread(target=detecteur).start() # S'il existe un obstacle au cours de son processus 
 
